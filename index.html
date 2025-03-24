@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des cartes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="main-title">Compétences</h1>
+
+            <div class="header-actions">
+                <button class="btn-header">
+                    <span class="btn-text">Coaching</span>
+                </button>
+                <button class="btn-header active">
+                    <span class="btn-text active">Validation</span>
+                </button>
+                <button class="btn-header">
+                    <span class="btn-text">Stats</span>
+                </button>
+                <div class="notification-icon">
+                    <div class="notification-dot"></div>
+                </div>
+                <div class="profile-icon"></div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="tab-container">
+                <div class="tab active">En attentes (41)</div>
+                <div class="tab">Validées (41)</div>
+            </div>
+
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="Recherche">
+                <div class="filter-icon">
+                    <div class="filter-line"></div>
+                    <div class="filter-line"></div>
+                    <div class="filter-line"></div>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-avatar"></div>
+                    <div class="card-content">
+                        <h3 class="card-title">Ibrahima Sonib</h3>
+                        <p class="card-description">4 compétences en attente de validation</p>
+                        <p class="card-time">Envoyè il y'a 2 minutes</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-avatar"></div>
+                    <div class="card-content">
+                        <h3 class="card-title">Fallou Mbengue</h3>
+                        <p class="card-description">4 compétences en attente de validation</p>
+                        <p class="card-time">Envoyè il y'a 2 minutes</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-avatar"></div>
+                    <div class="card-content">
+                        <h3 class="card-title">Fallou Mbengue</h3>
+                        <p class="card-description">4 compétences en attente de validation</p>
+                        <p class="card-time">Envoyè il y'a 2 minutes</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
